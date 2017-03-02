@@ -14,8 +14,8 @@ import { StoreEnhancer } from 'redux'
 const REDUX_INITIAL_STATE = '@@REDUX_INITIAL_STATE'
 
 export const setWindowInitialState =
-  <S>(window: any, state: S) =>
-    window[REDUX_INITIAL_STATE] = JSON.stringify(state)
+  <S>(window: Electron.BrowserWindow, state: S) =>
+    (window as any)[REDUX_INITIAL_STATE] = JSON.stringify(state)
 
 export const initalStateEnhancer: StoreEnhancer<any> =
   createStore => reducer => {
