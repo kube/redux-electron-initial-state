@@ -1,0 +1,17 @@
+{
+  "name": "redux-electron-initial-state",
+  "description": "Redux Store Initial State Enhancer between Electron Processes",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "author": {
+    "name": "Chris Feijoo"
+  },
+  "repository": "https://github.com/kube/redux-electron-initial-state",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/electron": "^1.4.33",
+    "@types/redux": "^3.6.31",
+    "typescript": "^2.2.1"
+  }
+}
