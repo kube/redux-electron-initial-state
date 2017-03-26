@@ -1,7 +1,7 @@
 {
   "name": "redux-electron-initial-state",
   "description": "Redux Store Initial State Enhancer between Electron Processes",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "author": {
